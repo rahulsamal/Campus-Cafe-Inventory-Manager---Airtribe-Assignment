@@ -1,1 +1,5 @@
-# Campus-Cafe-Inventory-Manager---Airtribe-Assignment
+For Warmup.java
+- I predicted that it should print Two and Three in the output as there is no break statement to terminate the loop.
+- static Variable totalProducts will be created and shared a same copy as it is something which will not differ for the usecase as we are getting the total product count so a same copy can be shared ratehr than an instance variable where every Product could be different.
+- changing p2.name does not change p1.name because copy constructor copied the instance variable and created it's own, it does not share the same variable name in the memory so changing the value of p2.name will not affect p1.name.
+- Java forces us to write (int)average when converting a double to an int because we are typecasting a double value to int from 64 bits to 32bits due to java internal representation and it trims the decimal values.
